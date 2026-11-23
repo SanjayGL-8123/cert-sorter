@@ -1,0 +1,29 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE and editors
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# Certificate data directory (keep directory, ignore processed certificates)
+Certification collect/*
+!Certification collect/.gitkeep
+!Certification collect/README.md
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
